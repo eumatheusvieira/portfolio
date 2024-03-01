@@ -1,0 +1,95 @@
+* {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: linear-gradient(#035f74, #002534) fixed;
+  color: #fff;
+}
+
+section {
+  min-height: 100vh;
+  padding: 10rem 9% 2rem;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 2rem 9%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+header .btn {
+  background: none;
+  color: #fff;
+  padding: 15px;
+  margin-left: 2rem;
+  border: solid 2px;
+  border-radius: 10px;
+}
+
+header .btn:hover {
+  cursor: pointer;
+  color: #ffffffce;
+}
+
+.logo {
+  font-size: 1.5rem;
+  color: #fff;
+  font-weight: 700;
+}
+
+.navbar a {
+  font-size: 0.8rem;
+  color: #fff;
+  margin-left: 2rem;
+  font-weight: 500;
+}
+
+.navbar a:hover,
+.navbar a:active {
+  color: #fffffff3;
+  text-decoration: underline;
+}
+
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -40px;
+}
+
+.content h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.content h2 span {
+  color: #00e925;
+  font-weight: 700;
+}
+.content a {
+  border: solid 1px;
+  font-size: 20px;
+  color: #00e925;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.imagem {
+  width: 25vw;
+  margin-left: 9rem;
+}
